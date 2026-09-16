@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    padding: 30px;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text h1 {
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 34px;
+}
+nav {
+    margin: 20px;
+  
+}
+nav a {
+    margin-right: 30px;
+    text-decoration: none;
+}
+main {
+    padding: 40px;
+}
+.skill {
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+.skill-container {
+    display: flex;
+    gap: 20px;
+}
+.project-container {
+    display: flex;
+}
+.project-card {
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+.projects {
+    margin-top: 40px;
+}
+.connect-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.about-image {
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-text {
+    width: 50%;
+}
+.about h2 {
+    font-size: 40px;
+}
+.about p {
+    font-style: italic;
+}
+.learning {
+    background-color: lightblue;
+    padding: 30px;
+
+}
+.skill {
+    padding: 20px;
+    border: 1px solid gray;
+    margin: 10px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+}
+.project-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.project-card a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact {
+    margin-top: 40px;
+    padding: 40px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-top: 10 px;
+    border-radius: 5px;
+}
